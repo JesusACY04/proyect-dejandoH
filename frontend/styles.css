@@ -1,0 +1,48 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-adoptar {
+    background-color: #f00;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.adopcion {
+    padding: 20px;
+}
+
+.animales {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.animal img {
+    width: 100%;  /* Ajusta el ancho de la imagen al 100% del contenedor */
+    max-width: 300px;  /* Asegúrate de que no sea mayor a 300px */
+    height: auto;  /* Mantiene la proporción de la imagen */
+}
+
